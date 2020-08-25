@@ -15,7 +15,6 @@ btns.forEach(function(btn){
            if(screen.value===""){
                screen.value="";
            }
-           result.textContent = screen.value;
            let number = btn.getAttribute("data-num");
            screen.value += number;
 
