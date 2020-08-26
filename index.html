@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SIMPLE CALCULATOR</h1>
+        </header>
+
+        <main>
+            <input type="text" class="screen">
+        </main>
+        <aside>
+            <div class="aside animated slideInRight infinite slow"></div>
+            <div class="aside1 animated slideInLeft infinite slow"></div>
+        </aside>
+        
+        <section>
+            <div class="one">
+                <button class="btn clear">C</button>
+                <button class="btn number" data-num="7">7</button>
+                <button class="btn number" data-num="4">4</button>
+                <button class="btn number" data-num="1">1</button>
+                <!-- <button class="btn number" id="zero">0</button> -->
+            </div>
+            <div class="two">
+                <button class="btn on">ON</button>
+                <button class="btn number" data-num="8">8</button>
+                <button class="btn number" data-num="5">5</button>
+                <button class="btn number"  data-num="2">2</button>
+                <button class="btn number"  data-num="0">0</button>
+            </div>
+            <div class="three">
+                <button class="btn off">OFF</button>
+                <button class="btn number" data-num="9">9</button>
+                <button class="btn number" data-num="6">6</button>
+                <button class="btn number" data-num="3">3</button>
+                <button class="btn number" data-num=".">.</button>
+            </div>
+            <div class="four">
+                <button class="btn number" id="special" data-num="/">/</button>
+                <button class="btn number" id="special" data-num="-">-</button>
+                <button class="btn number" id="specials"  data-num="*">*</button>
+                <button class="btn number" id="special" data-num="+">+</button>
+                <button class="btn equal-to" id="equal-to">=</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
